@@ -1,5 +1,10 @@
 <div class="section">
   <div class="container px-3">
-    <p>search works!</p>
+    <h1 class="title">Pesquisar</h1>
+    <select>
+      <option *ngFor="let category of categories">
+        {{ category.name }}
+      </option>
+    </select>
   </div>
 </div>
